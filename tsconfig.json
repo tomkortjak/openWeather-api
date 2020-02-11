@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./build/",
+    "module": "es6",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "allowJs": true,
+    "lib": [
+      "es2017"
+    ]
+  }
+}
