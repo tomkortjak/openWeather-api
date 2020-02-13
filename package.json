@@ -1,0 +1,46 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "build": "rimraf ./build && tsc",
+  "scripts": {
+    "start": "npm run server",
+    "build": "webpack --config webpack.config.js --watch",
+    "server": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.32",
+    "@types/koa": "^2.11.1",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.4.0",
+    "@types/node": "^13.7.1",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "jquery": "^3.4.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^8.0.7",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "lodash": "^4.17.15",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.2",
+    "nodemon-webpack-plugin": "^4.2.2",
+    "npm": "^6.13.7",
+    "npm-run-all": "^4.1.5",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
